@@ -16,26 +16,32 @@
             line-height: var(--bs-body-line-height);
             color: var(--bs-body-color);
             text-align: var(--bs-body-text-align);
-            background-color: #000000; /* Preto */
+            background-color: #000000;
+            /* Preto */
             -webkit-text-size-adjust: 100%;
             -webkit-tap-highlight-color: transparent;
         }
 
         .btn-primary {
             --bs-btn-color: #fff;
-            --bs-btn-bg: #622c8b; /* Roxo */
-            --bs-btn-border-color: #ffffff; /* Branco */
+            --bs-btn-bg: #622c8b;
+            /* Roxo */
+            --bs-btn-border-color: #ffffff;
+            /* Branco */
             --bs-btn-hover-color: #fff;
-            --bs-btn-hover-bg: #31243e; /* Tom mais forte de roxo */
+            --bs-btn-hover-bg: #31243e;
+            /* Tom mais forte de roxo */
             --bs-btn-hover-border-color: hsl(292, 39%, 69%);
             --bs-btn-focus-shadow-rgb: 49, 132, 253;
         }
 
         .navbar {
-            background-color: #4c2568; /* Roxo */
+            background-color: #4c2568;
+            /* Roxo */
         }
 
-        .navbar-brand, .nav-link {
+        .navbar-brand,
+        .nav-link {
             color: #fff;
         }
 
@@ -62,7 +68,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="z-index:-1;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Flixer</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -72,14 +78,14 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#sobre">Sobre nós</a>
+                        <a class="nav-link active" aria-current="page" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#filmes"></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="filmes.html" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                            aria-expanded="true">
                             Filmes
                         </a>
                         <ul class="dropdown-menu">
@@ -92,22 +98,22 @@
                             <li><a class="dropdown-item" href="#">Ação</a></li>
                             <li><a class="dropdown-item" href="#">Drama</a></li>
                         </ul>
-                    </li>                   
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                           Contato
+                            Contato
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">E-mail</a></li>
                             <li><a class="dropdown-item" href="#">Redes Sociais</a></li>
                             <li><a class="dropdown-item" href="#">Suporte</a></li>
-                        
+
                         </ul>
-                    </li> 
+                    </li>
                     <li class="nav-item dropdown">
-                        <a href="login.html" class="nav-link"  role="button" aria-expanded="true">
-                           Login
+                        <a href="login.html" class="nav-link" role="button" aria-expanded="true">
+                            Login
                         </a>
                     </li>
                 </ul>
@@ -149,7 +155,7 @@
 
     <section id="sobre">
         <div class="container">
-            <h1 class="text-center">Sobre a FLIXER</h1> 
+            <h1 class="text-center">Sobre a FLIXER</h1>
             <br>
             <div class="container text-center">
                 <div class="row">
@@ -157,7 +163,9 @@
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                 <h5 class="card-title">Visão</h5>
-                                <p class="card-text">A Flixer nasceu com o propósito de unir tecnologia e entretenimento. Somos pioneiros em oferecer experiências digitais imersivas para todos os públicos.</p>
+                                <p class="card-text">A Flixer nasceu com o propósito de unir tecnologia e
+                                    entretenimento. Somos pioneiros em oferecer experiências digitais imersivas para
+                                    todos os públicos.</p>
                                 <a href="#" class="btn btn-primary">Saiba Mais</a>
                             </div>
                         </div>
@@ -166,7 +174,9 @@
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                 <h5 class="card-title">Missão</h5>
-                                <p class="card-text">Nosso objetivo é manter a Flixer pioneira no mercado de streamings, criando uma plataforma inovadora, prática, autêntica, de alto desempenho e qualidade para os usuários.</p>
+                                <p class="card-text">Nosso objetivo é manter a Flixer pioneira no mercado de streamings,
+                                    criando uma plataforma inovadora, prática, autêntica, de alto desempenho e qualidade
+                                    para os usuários.</p>
                                 <a href="#" class="btn btn-primary">Saiba Mais</a>
                             </div>
                         </div>
@@ -175,7 +185,10 @@
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                 <h5 class="card-title">História</h5>
-                                <p class="card-text">A FLIXER, tem sido pioneira, e quer continuar sendo referência tecnológica nacional,entregar conteúdo de qualidade e experiências únicas de forma acessível, inovando sempre em tecnologia e serviços. Empresa produtora de streamings, filmes, vídeos, séries e animações </p>
+                                <p class="card-text">A FLIXER, tem sido pioneira, e quer continuar sendo referência
+                                    tecnológica nacional,entregar conteúdo de qualidade e experiências únicas de forma
+                                    acessível, inovando sempre em tecnologia e serviços. Empresa produtora de
+                                    streamings, filmes, vídeos, séries e animações </p>
                                 <a href="#" class="btn btn-primary">Saiba Mais</a>
                             </div>
                         </div>
@@ -185,21 +198,27 @@
         </div>
     </section>
 
-
-
-    <section id="sobre">
+    <section id="cartaz">
         <div class="container">
-            <h1 class="text-center">| EM CARTAZ |</h1> 
+            <h1 class="text-center">| EM CARTAZ |</h1>
             <br>
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <iframe width="260" height="100" src="https://www.youtube.com/embed/TXPkr5HcvBs?si=lExDwMCv13bBGXOp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="260" height="100"
+                                    src="https://www.youtube.com/embed/TXPkr5HcvBs?si=lExDwMCv13bBGXOp"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 <img src="..." class="d-block w-100" alt="Filme 3">
                                 <h5 class="card-title">Sônic 3</h5>
-                                <p class="card-text">Na terceira parcela da franquia, o ouriço velocista, o guerreiro equidna Knuckles e a raposa voadora Tails constroem uma aliança voltada à proteção da mágica Esmeralda Mestra. No entanto, uma nova ameaça surge quando os militares da G.U.N., uma força especial, não conseguem encontrar o corpo do Dr. Eggman no local onde ocorreu a batalha final.</p>
+                                <p class="card-text">Na terceira parcela da franquia, o ouriço velocista, o guerreiro
+                                    equidna Knuckles e a raposa voadora Tails constroem uma aliança voltada à proteção
+                                    da mágica Esmeralda Mestra. No entanto, uma nova ameaça surge quando os militares da
+                                    G.U.N., uma força especial, não conseguem encontrar o corpo do Dr. Eggman no local
+                                    onde ocorreu a batalha final.</p>
                                 <a href="#" class="btn btn-primary">Saiba Mais</a>
                             </div>
                         </div>
@@ -207,9 +226,18 @@
                     <div class="col">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <iframe width="260" height="100" src="https://www.youtube.com/embed/DA3K6Xrx4HE?si=7d8w_cTjQFmIMzT3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="260" height="100"
+                                    src="https://www.youtube.com/embed/DA3K6Xrx4HE?si=7d8w_cTjQFmIMzT3"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 <h5 class="card-title">Venon: A última rodada</h5>
-                                <p class="card-text">A Última Rodada ainda não é um título oficial da franquia Venom, mas pode ser um nome especulado para um futuro filme da saga. Nos filmes anteriores, a história gira em torno de Eddie Brock e seu simbionte alienígena, Venom, enquanto lutam para coexistir e enfrentar ameaças como o vilão Carnificina. Se este filme for lançado, é provável que continue explorando a dinâmica entre Eddie e Venom em meio a novos desafios.</p>
+                                <p class="card-text">A Última Rodada ainda não é um título oficial da franquia Venom,
+                                    mas pode ser um nome especulado para um futuro filme da saga. Nos filmes anteriores,
+                                    a história gira em torno de Eddie Brock e seu simbionte alienígena, Venom, enquanto
+                                    lutam para coexistir e enfrentar ameaças como o vilão Carnificina. Se este filme for
+                                    lançado, é provável que continue explorando a dinâmica entre Eddie e Venom em meio a
+                                    novos desafios.</p>
                                 <a href="#" class="btn btn-primary">Saiba Mais</a>
                             </div>
                         </div>
@@ -217,9 +245,18 @@
                     <div class="col">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <iframe width="260" height="100" src="https://www.youtube.com/embed/SG20CoUb5wA?si=WV5T3ZfhKEgD_ZIK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe width="260" height="100"
+                                    src="https://www.youtube.com/embed/SG20CoUb5wA?si=WV5T3ZfhKEgD_ZIK"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 <h5 class="card-title">Divertidamente</h5>
-                                <p class="card-text">filme de animação da Pixar que se passa dentro da mente de uma jovem chamada Riley, onde cinco emoções — Alegria, Tristeza, Raiva, Nojinho e Medo — a guiam em sua vida. Quando a família de Riley se muda para San Francisco, Alegria tenta manter a felicidade, mas Tristeza começa a interferir. Após serem acidentalmente expulsas do centro de controle, Alegria e Tristeza embarcam em uma jornada pela mente de Riley para retornar. </p>
+                                <p class="card-text">filme de animação da Pixar que se passa dentro da mente de uma
+                                    jovem chamada Riley, onde cinco emoções — Alegria, Tristeza, Raiva, Nojinho e Medo —
+                                    a guiam em sua vida. Quando a família de Riley se muda para San Francisco, Alegria
+                                    tenta manter a felicidade, mas Tristeza começa a interferir. Após serem
+                                    acidentalmente expulsas do centro de controle, Alegria e Tristeza embarcam em uma
+                                    jornada pela mente de Riley para retornar. </p>
                                 <a href="#" class="btn btn-primary">Saiba Mais</a>
                             </div>
                         </div>
@@ -229,42 +266,54 @@
         </div>
     </section>
 
+    <br><br>
 
-
-
-    <section id="sobre">
+    <section id="planoseassinatura">
         <div class="container">
-            <h1 class="text-center">| EM BREVE |</h1> 
+
+            <h1 class="text-center">Nossos Planos de Assinatura</h1>
             <br>
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <iframe width="260" height="100" src="https://www.youtube.com/embed/ke4x5ywVhiw?si=2fzypKU4xfNXgNK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                <h5 class="card-title">Auto da compadecida</h5>
-                                <p class="card-text"> João Grilo e Chicó voltam para novas aventuras no sertão nordestino. Assim como no primeiro filme, a dupla vai enfrentar desafios com humor e esperteza, envolvendo críticas sociais e temas religiosos. A Compadecida (Nossa Senhora) deve novamente desempenhar um papel importante, ajudando os protagonistas em suas confusões.</p>
-                                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                                <h5 class="card-title">Plano Básico</h5>
+                                <p class="card-text">R$19,90/mês</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Qualidade SD (480p)</li>
+                                    <li class="list-group-item">1 dispositivo</li>
+                                    <li class="list-group-item">Anúncios inclusos</li>
+                                </ul>
+                                <a href="pagamento.html" class="btn btn-primary mt-3">ASSINAR AGORA!</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <iframe width="260" height="100" src="https://www.youtube.com/embed/U3rhIiCjseE?si=BN5i4VhWwfsY2J6_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                <h5 class="card-title">Terrifier 2</h5>
-                                <p class="card-text">segue o retorno de Art the Clown, ressuscitado por uma entidade misteriosa, para continuar seu reinado de terror durante o Halloween. Dessa vez, ele persegue Sienna Shaw, uma jovem que está processando o luto pela morte de seu pai. Art comete assassinatos horríveis ao longo do filme, enquanto Sienna tenta sobreviver.</p>
-                                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                                <h5 class="card-title">Plano Premium</h5>
+                                <p class="card-text">R$49,90/mês</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Qualidade Full HD e 4K</li>
+                                    <li class="list-group-item">4 dispositivos</li>
+                                    <li class="list-group-item">Sem anúncios</li>
+                                </ul>
+                                <a href="pagamento.html" class="btn btn-primary mt-3">ASSINAR AGORA!</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <iframe width="260" height="100" src="https://www.youtube.com/embed/PnqUs3xiAVI?si=R6EFsv9cOrHguqBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                <h5 class="card-title">Como eu era antes de você</h5>
-                                <p class="card-text">Louisa Clark, uma jovem otimista que se torna cuidadora de Will Traynor, um ex-executivo que ficou tetraplégico após um acidente. Enquanto Louisa tenta animar Will e mostrar que ainda é possível encontrar alegria na vida, ele luta com a depressão e suas limitações. A relação deles evolui em uma profunda amizade, abordando temas como amor, perda e a importância de viver plenamente, culminando em uma decisão difícil que Will deve enfrentar sobre seu futuro.</p>
-                                <a href="#" class="btn btn-primary">Saiba Mais</a>
+                                <h5 class="card-title">Plano Família</h5>
+                                <p class="card-text">R$69,90/mês</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Qualidade Ultra HD (4K)</li>
+                                    <li class="list-group-item">6 dispositivos</li>
+                                    <li class="list-group-item">Sem anúncios</li>
+                                </ul>
+                                <a href="pagamento.html" class="btn btn-primary mt-3">ASSINAR AGORA!</a>
                             </div>
                         </div>
                     </div>
@@ -272,7 +321,6 @@
             </div>
         </div>
     </section>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
