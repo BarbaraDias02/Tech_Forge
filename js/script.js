@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     const password = document.getElementById('password').value;
     const errorMessage = document.getElementById('errorMessage');
 
-    const u = '123@123.com';
+    const u = 'marcela@gmail.com';
     const s = '123';
 
     // Validação simples (substitua por autenticação real conforme necessário)
